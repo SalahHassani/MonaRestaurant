@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MONA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ***************************** -->
+    <!-- Navigation Bar & Header -->
+    <section class="container1">
+      <nav class="nav">
+        <div class="topNav">
+          <ul class="nav-links">
+            <li>
+              <a href="#section-0" class="nav-link active">HOME</a>
+            </li>
+            <li>
+              <a href="#section-3" class="nav-link scrollBtn-reserve">RESERVATION</a>
+            </li>
+            <li>
+              <a href="#section-4" class="nav-link scrollBtn-aboutUs">ABOUT US</a>
+            </li>
+            <li>
+              <a href="#section-5" class="nav-link scrollBtn-contactUs">CONTACT US</a>
+            </li>
+            <li class="menu">
+              <a href="#">MENU</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <header class="test">
+        <h1>Welcome to <span class="highlight">MONA</span></h1>
+        <h2><span class="highlight">Halal</span></h2>
+      </header>
+
+      <br />
+      <!-- <h2><strong>Pakistani & Indian étterem</strong></h2> -->
+      <h2 class="h2Test">
+        <!-- Green highlight effect -->
+        <span class="highlight">pakisztáni</span>
+        és
+        <span class="highlight2">indián</span>
+        étterem
+      </h2>
+    </section>
+
+    
+    <!-- ***************************** -->
+    <!-- Picture Slide Show -->
+    <section class="container section-1">
+        <hr />
+      <div class="slideShow">
+        <div class="slide"><img src="/img/1.jpg" alt="no picture found" /></div>
+        <div class="slide"><img src="/img/2.jpg" alt="no picture found" /></div>
+        <div class="slide"><img src="/img/3.jpg" alt="no picture found" /></div>
+        <div class="slide"><img src="/img/5.jpg" alt="no picture found" /></div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+
+        <div class="dots"></div>
+      </div>
+
+      <div class="myButtons">
+        <button class="reservationBtn">
+          <div class="show-modal buttons">Reservation</div>
+          <!-- <a href="#" class="show-modal"> Reservation </a> -->
+        </button>
+
+        <button class="menuBtn">
+          <div class="menu buttons">Menu</div>
+          <!-- <a href="#" class="button-link"> Menu </a> -->
+        </button>
+      </div>
+    </section>
+
+   
+    <!-- ***************************** -->
+    <!-- Hidden Reservation -->
+    <section class="container">
+      <div class="modal hidden reservation">
+        <button class="close-modal">&times;</button>
+        <div class="reservationHeader"><h1>Book A Table 🍽️</h1></div>
+        <p>
+          To make a reservation at our restaurant, please contact us via
+          telephone or email. We kindly request that all reservations be made
+          through these channels. Thank you for choosing our restaurant, and we
+          look forward to serving you soon!
+        </p>
+      </div>
+      <!--The Blur view will come from here-->
+      <div class="overlay hidden"></div>
+    </section>
+
+    
+    <!-- ***************************** -->
+    <!-- Introdution & Video/Imgage-->
+    <section class="container section-2">
+        <hr />
+      <div class="intro col-12">
+        <div class="col-6 introPics">
+          <div><img src="/img/6.png" alt="no picture found" /></div>
+        </div>
+
+        <div class="introPragraph col-6">
+          <div><h1>Introduction</h1></div>
+          <p>
+            Welcome to Al-Noor Restaurant, a unique dining experience that
+            offers authentic Pakistani and Indian cuisine under one roof. Our
+            restaurant was founded in 2022 with the aim of providing our
+            customers with a taste of traditional South Asian dishes that are
+            prepared with the f inest ingredients and spices. At Al-Noor, we
+            pride ourselves on our commitment to quality and excellence, and we
+            strive to create a warm and welcoming atmosphere for our guests. Our
+            menu features a wide range of dishes that cater to all tastes, from
+            rich and aromatic curries to grilled meats and vegetarian delights.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ***************************** -->
+    <!-- Reservation Form  -->
+    <section class="container section-3">
+        <hr />
+      <div class="reservation">
+        <!-- <form action=""></form> -->
+        <div class="reservationHeader"><h2>Reservation</h2></div>
+        <p>
+          To make a reservation at our restaurant, please contact us via
+          telephone or email. We kindly request that all reservations be made
+          through these channels. Thank you for choosing our restaurant, and we
+          look forward to serving you soon!
+        </p>
+      </div>
+    </section>
+
+    
+    <!-- ***************************** -->
+    <!-- Location & Contact Details -->
+    <section class="container section-4">
+        <hr />
+        <div class="contactAndLocation">
+      <div class="contactUs col-5">
+        <div class="contact">
+          <div class="contactHeader">
+            <h2>Contact Us</h2>
+          </div>
+
+          <div class="contactEmail">
+            <span class="emoji">✉️</span>
+            <span class="label">Email:</span>
+            <a href="mailto:example@example.com">example@example.com</a>
+          </div>
+
+          <div class="contactPhoneNo">
+            <span class="emoji">📞</span>
+            <span>Phone NO:</span>
+            <a href="https://faq.whatsapp.com/">+123456789</a>
+          </div>
+
+          <div class="contactAddress">
+            <span class="emoji">📍</span>
+            <span>Address:</span>
+            <a
+              href="https://goo.gl/maps/5n6SW4p166UdZYwWA"
+              target="_blank"
+              rel="noopener noreferrer"
+              >ABC</a
+            >
+          </div>
+        </div>
+
+        <div class="openingHours">
+          <div class="openingHourHeader">
+            <h2>Opening Hours</h2>
+          </div>
+
+          <div class="openingHourMonToFri">
+            <span class="emoji">⏰</span>
+            Mon-Sat: 9:00 am - 8 pm
+          </div>
+
+          <div class="opeingHourSatAndSun">
+            <span class="emoji">⏰</span>
+            Sunday: Closed
+          </div>
+        </div>
+        
+      </div>
+
+      <br />
+      <div class="location col-7">
+        <h2>Location</h2>
+        <div class="form-container">
+          <div id="map-container">
+            <div id="map-locator">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.0428564116137!2d19.075908051110787!3d47.48907847907486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dd4df2ffac0d%3A0xc96e05c2b18d275b!2sAL%20NOOR%20%C3%89TTEREM(Halal%20meat)%20(%20Pakiszt%C3%A1ni%20%C3%A9s%20Indiai%20%C3%ADzek)!5e0!3m2!1sen!2shu!4v1684576506440!5m2!1sen!2shu"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <p>123 Street, ABC Building, Budapest</p>
+      </div>
+    </div>
+    </section>
+
+    
+    <!-- ***************************** -->
+    <!-- About Us Slide Show -->
+    <section class="container section-5">
+        <hr />
+      <div class="aboutUs">
+        <div class="aboutUsHeader">
+          <h2>About Us</h2>
+        </div>
+
+        <!-- <div class="aboutUsBtns">
+          <button class="btn aboutUsBtn--1 abputUsBtnActive" data-tab="1">
+            <span>01</span>
+            <h3>Our Team</h3>
+          </button>
+          <button class="btn aboutUsBtn--2" data-tab="2">
+            <span>02</span>
+            <h3>Our Chefs</h3>
+          </button>
+          <button class="btn aboutUsBtn--3" data-tab="3">
+            <span>03</span>
+            <h3>Our Restaurant Environment</h3>
+          </button>
+        </div> -->
+
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Our Team
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Our Chefs
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Our Foods
+          </button>
+        </div>
+
+        <div class="aboutUs-1 operations-content operations__content--active">
+          <p>
+            Welcome to Alnoor Restaurant, your destination for Pakistani and
+            Indian cuisine! We are a team of experienced professionals dedicated
+            to bringing you the very best in authentic South Asian flavors. Our
+            menu is carefully crafted to showcase the rich and diverse culinary
+            traditions of both Pakistan and India, with a focus on using only
+            the highest quality ingredients and traditional cooking methods.
+            From savory biryanis and tender kebabs to rich curries and spicy
+            chaats, our dishes are sure to transport your taste buds to the
+            streets of Karachi, Lahore, or Mumbai. Whether you're a first-time
+            visitor or a regular patron, our friendly staff are always happy to
+            assist you in choosing the perfect meal and providing top-notch
+            service. Thank you for choosing Alnoor Restaurant, and we look
+            forward to serving you soon!
+          </p>
+        </div>
+        <div class="aboutUs-2 operations-content">
+          <p>
+            Our team of skilled and experienced chefs at Alnoor Restaurant are
+            dedicated to bringing you the best in Pakistani and Indian cuisine.
+            They use only the freshest and highest quality ingredients to
+            prepare traditional dishes with a modern twist. Our chefs have a
+            deep understanding of spices and flavors, and they work tirelessly
+            to ensure that every dish leaving our kitchen is prepared with
+            utmost care and attention to detail. Come and experience the magic
+            of our chefs' culinary creations at Alnoor Restaurant!
+          </p>
+        </div>
+        <div class="aboutUs-3 operations-content">
+          <p>
+            Our team of skilled and experienced chefs at Alnoor Restaurant are
+            dedicated to bringing you the best in Pakistani and Indian cuisine.
+            They use only the freshest and highest quality ingredients to
+            prepare traditional dishes with a modern twist. Our chefs have a
+            deep understanding of spices and flavors
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***************************** -->
+    <!-- Complain Form -->
+    <section class="container section-6">
+        <hr /> 
+      <form action="backend.php" class="form">
+        <div class="nameDetails">
+          <label for="firstName"><h4>First Name:</h4></label>
+          <input
+            type="text"
+            name="First Name"
+            id="firstName"
+            placeholder="firstname"
+          /> <h3>
+            <label for="lastName">Last Name:</h3></label>
+          <input
+            type="text"
+            name="Last Name"
+            id="lastName"
+            placeholder="lastname"
+          />
+        </div>
+
+        <div class="gender">
+          <div><h4>Gender:</h4></div>
+          Male <input type="radio" name="gender" /> Female
+          <input type="radio" name="gender" /> Other
+          <input type="radio" name="gender" />
+        </div>
+
+        <div class="checkBoxes">
+          <div><h4>What you want us improve!</h4></div>
+          Food <input type="checkbox" name="1" /> Place
+          <input type="checkbox" name="2" /> Staff
+          <input type="checkbox" name="3" /> Cooking
+          <input type="checkbox" name="4" /> Quality
+          <input type="checkbox" name="5" />
+        </div>
+
+        <div class="formDate"><h4>Date: </h4><input type="date" /></div>
+
+        <div class="textArea"><textarea placeholder="Something else! ... "></textarea></div>
+        <br />
+        <div>
+          <input class="reset" type="reset" value="Reset Now" />
+          <input class="submit" type="submit" value="Submit Now" />
+        </div>
+      </form>
+    </section>
+
+
+    <!-- ***************************** -->
+    <!-- Footer  -->
+    <section class="container">
+      <footer class="footcy">
+        <div class="row">
+          <div class="col-12 mobileStack">
+            <h1 id="contactUs">Contact Us</h1>
+            <ul>
+              <li><b>Phone NO : </b>+36[][][][][][]</li>
+              <li><b>Email :</b> shassani908@gmail.com</li>
+              <li><b>Address : </b> ABC</li>
+            </ul>
+            <h1>Opening Hours</h1>
+            <ul>
+              <li><b>Friday : </b> 10:00 am - 12:00 am</li>
+              <li><b>Satuday - Trusday : </b>Closed</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- javaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
